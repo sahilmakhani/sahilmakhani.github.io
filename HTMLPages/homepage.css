@@ -1,0 +1,44 @@
+.contentcard {
+    width: 275px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-left: auto;
+    padding-right: 10px;
+    margin-top: 5px;
+    position: relative;
+    background-color: gray;
+    float: left;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.contentcard:hover{
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+            
+    -ms-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.contentcard-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+img{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 250px;
+    max-width: 275px;
+    height: auto;    
+}
+
+.hello-text {
+    font-family: 'Open Sans', sans-serif;
+}
